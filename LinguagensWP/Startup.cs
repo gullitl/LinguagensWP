@@ -48,7 +48,7 @@ namespace LinguagensWP {
             app.UseEndpoints(endpoints => {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Linguagem}/{action=Index}/{id?}");
+                    pattern: "{controller=Autor}/{action=Index}/{id?}");
             });
         }
     }
