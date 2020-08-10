@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LinguagensWP.DataAccess {
     public class AppDbContext : DbContext {
-        public virtual DbSet<Linguagem> Linguagens { get; set; }
 
         public AppDbContext(DbContextOptions options) : base(options) {
             Database.EnsureCreated();
@@ -15,9 +14,14 @@ namespace LinguagensWP.DataAccess {
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Linguagem>()
+                .HasOne(b => b.Autor)
+                .WithMany(a => a.Linguagens);
         }
 
-        public DbSet<Asp.LinguagensWP.Models.Autor> Autor { get; set; }
+        public virtual DbSet<Linguagem> Linguagens { get; set; }
+        public DbSet<Autor> Autor { get; set; }
 
     }
 }
