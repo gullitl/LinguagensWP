@@ -1,3 +1,10 @@
+C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.csprojAssemblyReference.cache
+C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.AssemblyInfoInputs.cache
+C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.AssemblyInfo.cs
+C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.csproj.CoreCompileInputs.cache
+C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.RazorAssemblyInfo.cache
+C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.RazorAssemblyInfo.cs
 C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -143,13 +150,6 @@ C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\bin\D
 C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\bin\Debug\netcoreapp3.1\LinguagensWP.Models.dll
 C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\bin\Debug\netcoreapp3.1\LinguagensWP.DataAcess.pdb
 C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\bin\Debug\netcoreapp3.1\LinguagensWP.Models.pdb
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.csprojAssemblyReference.cache
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.AssemblyInfoInputs.cache
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.AssemblyInfo.cs
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.csproj.CoreCompileInputs.cache
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.RazorAssemblyInfo.cache
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.RazorAssemblyInfo.cs
 C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.TagHelpers.input.cache
 C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.TagHelpers.output.cache
 C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.App\obj\Debug\netcoreapp3.1\LinguagensWP.App.RazorCoreGenerate.cache

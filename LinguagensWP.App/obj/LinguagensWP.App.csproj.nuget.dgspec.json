@@ -32,9 +32,6 @@
             "projectReferences": {
               "C:\\Users\\Plamedi L. Lusembo\\source\\TPParfait\\LinguagensWP\\LinguagensWP.DataAcess\\LinguagensWP.DataAcess.csproj": {
                 "projectPath": "C:\\Users\\Plamedi L. Lusembo\\source\\TPParfait\\LinguagensWP\\LinguagensWP.DataAcess\\LinguagensWP.DataAcess.csproj"
-              },
-              "C:\\Users\\Plamedi L. Lusembo\\source\\TPParfait\\LinguagensWP\\LinguagensWP.Models\\LinguagensWP.Models.csproj": {
-                "projectPath": "C:\\Users\\Plamedi L. Lusembo\\source\\TPParfait\\LinguagensWP\\LinguagensWP.Models\\LinguagensWP.Models.csproj"
               }
             }
           }
@@ -114,14 +111,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netstandard2.0": {
             "projectReferences": {
               "C:\\Users\\Plamedi L. Lusembo\\source\\TPParfait\\LinguagensWP\\LinguagensWP.Models\\LinguagensWP.Models.csproj": {
                 "projectPath": "C:\\Users\\Plamedi L. Lusembo\\source\\TPParfait\\LinguagensWP\\LinguagensWP.Models\\LinguagensWP.Models.csproj"
@@ -136,7 +133,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netstandard2.0": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -151,6 +148,12 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -167,11 +170,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
         }
       }
@@ -193,14 +191,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netstandard2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netstandard2.0": {
             "projectReferences": {}
           }
         },
@@ -211,7 +209,19 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -222,11 +232,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
         }
       }

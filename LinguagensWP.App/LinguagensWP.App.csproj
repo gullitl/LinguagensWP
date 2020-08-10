@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LinguagensWP.DataAcess\LinguagensWP.DataAcess.csproj" />
-    <ProjectReference Include="..\LinguagensWP.Models\LinguagensWP.Models.csproj" />
   </ItemGroup>
 
 </Project>

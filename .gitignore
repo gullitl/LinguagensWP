@@ -2,7 +2,7 @@
 
 # chache files
 /.vs
-/LinguagensWP/bin/Debug
-/LinguagensWP/obj
+/LinguagensWP.App/bin/Debug
+/LinguagensWP.App/obj
 /Marciixvii.EFR.IntegrationTests/bin/Debug
 /Marciixvii.EFR.IntegrationTests/obj

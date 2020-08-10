@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "N3tU+GTdAih1huN6ph3DzeFEGvKOZf1bNi7s+thzyhDhhKJ8ftUoywl/M0KlCSMCdew1VqZMXH5Af/5XtkIXZw==",
+  "dgSpecHash": "VuWbMoBLKUjP3noQy88jFh8P9Zp+3HJiEBx7qtbii7ZmCvvcJoask4HHkSdh/HuvLObYoJH7gEfu+UCdpBr2iQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Plamedi L. Lusembo\\source\\TPParfait\\LinguagensWP\\LinguagensWP.Models\\LinguagensWP.Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Plamedi L. Lusembo\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

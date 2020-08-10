@@ -1,9 +1,0 @@
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.Models\bin\Debug\netcoreapp3.1\LinguagensWP.Models.deps.json
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.Models\bin\Debug\netcoreapp3.1\LinguagensWP.Models.dll
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.Models\bin\Debug\netcoreapp3.1\LinguagensWP.Models.pdb
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.Models\obj\Debug\netcoreapp3.1\LinguagensWP.Models.AssemblyInfoInputs.cache
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.Models\obj\Debug\netcoreapp3.1\LinguagensWP.Models.AssemblyInfo.cs
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.Models\obj\Debug\netcoreapp3.1\LinguagensWP.Models.csproj.CoreCompileInputs.cache
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.Models\obj\Debug\netcoreapp3.1\LinguagensWP.Models.dll
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.Models\obj\Debug\netcoreapp3.1\LinguagensWP.Models.pdb
-C:\Users\Plamedi L. Lusembo\source\TPParfait\LinguagensWP\LinguagensWP.Models\obj\Debug\netcoreapp3.1\LinguagensWP.Models.csprojAssemblyReference.cache

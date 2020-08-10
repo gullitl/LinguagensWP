@@ -25,7 +25,6 @@
       "LinguagensWP.App/1.0.0": {
         "dependencies": {
           "LinguagensWP.DataAcess": "1.0.0",
-          "LinguagensWP.Models": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.6",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.6",
@@ -2368,6 +2367,9 @@
         }
       },
       "LinguagensWP.Models/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
         "runtime": {
           "LinguagensWP.Models.dll": {}
         },
