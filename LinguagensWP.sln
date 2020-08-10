@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinguagensWP", "LinguagensWP\LinguagensWP.csproj", "{5DDD8895-ECEE-44E7-BF8D-C52C29D67658}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinguagensWP.App", "LinguagensWP.App\LinguagensWP.App.csproj", "{5DDD8895-ECEE-44E7-BF8D-C52C29D67658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{1FC4C4AE-E86F-4449-9301-5E39D67926F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinguagensWP.Models", "LinguagensWP.Models\LinguagensWP.Models.csproj", "{1FC4C4AE-E86F-4449-9301-5E39D67926F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAcess", "DataAcess\DataAcess.csproj", "{551F7483-A074-4CE1-A42F-1036DC554602}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinguagensWP.DataAcess", "LinguagensWP.DataAcess\LinguagensWP.DataAcess.csproj", "{551F7483-A074-4CE1-A42F-1036DC554602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
