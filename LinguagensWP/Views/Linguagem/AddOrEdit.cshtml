@@ -1,4 +1,4 @@
-﻿@model Asp.LinguagensWP.Models.Employee
+﻿@model Asp.LinguagensWP.Models.Linguagem
 
 @{
     ViewData["Title"] = "Create";
@@ -10,7 +10,7 @@
     <div class="col-md-6">
         <form asp-action="AddOrEdit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="EmployeeId" />
+            <input type="hidden" asp-for="LinguagemId" />
             <div class="form-group">
                 <label asp-for="FullName" class="control-label"></label>
                 <input asp-for="FullName" class="form-control" />

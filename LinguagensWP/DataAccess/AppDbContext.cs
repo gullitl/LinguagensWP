@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LinguagensWP.DataAccess {
     public class AppDbContext : DbContext {
-        public virtual DbSet<Employee> Employees { get; set; }
+        public virtual DbSet<Linguagem> Linguagens { get; set; }
 
         public AppDbContext(DbContextOptions options) : base(options) {
             Database.EnsureCreated();

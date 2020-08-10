@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Asp.LinguagensWP.Models.Employee>
+﻿@model IEnumerable<Asp.LinguagensWP.Models.Linguagem>
 
 @{
     ViewData["Title"] = "Index";
@@ -44,8 +44,8 @@
                 @Html.DisplayFor(modelItem => item.OfficeLocation)
             </td>
             <td>
-                <a asp-action="AddOrEdit" asp-route-id="@item.EmployeeId">Editar</a> |
-                <a asp-action="Delete" asp-route-id="@item.EmployeeId" onclick="return confirm('Tem certeza que deseja deletar esta linguagem?')">Deletar</a>
+                <a asp-action="AddOrEdit" asp-route-id="@item.LinguagemId">Editar</a> |
+                <a asp-action="Delete" asp-route-id="@item.LinguagemId" onclick="return confirm('Tem certeza que deseja deletar esta linguagem?')">Excluir</a>
             </td>
         </tr>
 }

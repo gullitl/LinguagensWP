@@ -9,56 +9,56 @@ using LinguagensWP.DataAccess;
 
 namespace Asp.netCoreMVCCRUD.Controllers
 {
-    public class EmployeeController : Controller
+    public class LinguagemController : Controller
     {
         private readonly AppDbContext _context;
 
-        public EmployeeController(AppDbContext context)
+        public LinguagemController(AppDbContext context)
         {
             _context = context;
         }
 
-        // GET: Employee
+        // GET: Linguagem
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Employees.ToListAsync());
+            return View(await _context.Linguagens.ToListAsync());
         }
 
 
-        // GET: Employee/Create
+        // GET: Linguagem/Create
         public IActionResult AddOrEdit(int id = 0)
         {
             if (id == 0)
-                return View(new Employee());
+                return View(new Linguagem());
             else
-                return View(_context.Employees.Find(id));
+                return View(_context.Linguagens.Find(id));
         }
 
-        // POST: Employee/Create
+        // POST: Linguagem/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddOrEdit([Bind("EmployeeId,FullName,EmpCode,Position,OfficeLocation")] Employee employee)
+        public async Task<IActionResult> AddOrEdit([Bind("LinguagemId,FullName,EmpCode,Position,OfficeLocation")] Linguagem linguagem)
         {
             if (ModelState.IsValid)
             {
-                if (employee.EmployeeId == 0)
-                    _context.Add(employee);
+                if (linguagem.LinguagemId == 0)
+                    _context.Add(linguagem);
                 else
-                    _context.Update(employee);
+                    _context.Update(linguagem);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(employee);
+            return View(linguagem);
         }
 
 
-        // GET: Employee/Delete/5
+        // GET: Linguagem/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            var employee =await _context.Employees.FindAsync(id);
-            _context.Employees.Remove(employee);
+            var linguagem =await _context.Linguagens.FindAsync(id);
+            _context.Linguagens.Remove(linguagem);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
