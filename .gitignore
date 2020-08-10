@@ -1,8 +1,0 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# chache files
-/.vs
-/LinguagensWP.App/bin/Debug
-/LinguagensWP.App/obj
-/Marciixvii.EFR.IntegrationTests/bin/Debug
-/Marciixvii.EFR.IntegrationTests/obj
