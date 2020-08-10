@@ -14,8 +14,9 @@ namespace Asp.LinguagensWP.Models
         [Required(ErrorMessage = "Campo Autor obrigatório.")]
         [DisplayName("Autor")]
         public string Autor { get; set; }
-        [DisplayName("Data Criação")]
+        [Required(ErrorMessage = "Campo Data Criação obrigatório.")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
+        [DisplayName("Data Criação")]
         public DateTime DataCricao { get; set; }
         [DisplayName("Descrição")]
         public string Descricao { get; set; }
