@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 namespace Asp.LinguagensWP.Models
@@ -14,7 +15,8 @@ namespace Asp.LinguagensWP.Models
         [DisplayName("Autor")]
         public string Autor { get; set; }
         [DisplayName("Data Criação")]
-        public string DataCricao { get; set; }
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy}")]
+        public DateTime DataCricao { get; set; }
         [DisplayName("Descrição")]
         public string Descricao { get; set; }
     }
