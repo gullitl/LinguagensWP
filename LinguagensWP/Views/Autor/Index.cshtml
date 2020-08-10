@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Asp.LinguagensWP.Models.Autor>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeCompleto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataNascimento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ativo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeCompleto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ativo)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AutorId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.AutorId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.AutorId" onclick="return confirm('Você tem certeza que deseja excluir este Autor?')">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

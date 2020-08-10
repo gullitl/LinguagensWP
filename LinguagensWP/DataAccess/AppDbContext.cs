@@ -17,5 +17,7 @@ namespace LinguagensWP.DataAccess {
             base.OnModelCreating(modelBuilder);
         }
 
+        public DbSet<Asp.LinguagensWP.Models.Autor> Autor { get; set; }
+
     }
 }
