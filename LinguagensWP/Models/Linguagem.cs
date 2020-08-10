@@ -10,9 +10,11 @@ namespace Asp.LinguagensWP.Models
         [Required(ErrorMessage ="Campo Nome obrigatório.")]
         [DisplayName("Nome")]
         public string Nome { get; set; }
-        [DisplayName("Emp. Code")]
-        public string EmpCode { get; set; }
-        public string Position { get; set; }
+        [Required(ErrorMessage = "Campo Autor obrigatório.")]
+        [DisplayName("Autor")]
+        public string Autor { get; set; }
+        [DisplayName("Data Criação")]
+        public string DataCricao { get; set; }
         [DisplayName("Descrição")]
         public string Descricao { get; set; }
     }

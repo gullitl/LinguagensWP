@@ -39,7 +39,7 @@ namespace Asp.netCoreMVCCRUD.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddOrEdit([Bind("LinguagemId,Nome,EmpCode,Position,OfficeLocation")] Linguagem linguagem)
+        public async Task<IActionResult> AddOrEdit([Bind("LinguagemId,Nome,Autor,DataCricao,Descricao")] Linguagem linguagem)
         {
             if (ModelState.IsValid)
             {
