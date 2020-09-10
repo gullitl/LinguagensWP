@@ -2,9 +2,9 @@
 
 # chache files
 /.vs
-/LinguagensWP.App/bin
-/LinguagensWP.App/obj
-/LinguagensWP.DataAcess/bin
-/LinguagensWP.DataAcess/obj
-/LinguagensWP.Models/bin
-/LinguagensWP.Models/obj
+/TP1/LinguagensWP.App/bin
+/TP1/LinguagensWP.App/obj
+/TP1/LinguagensWP.DataAcess/bin
+/TP1/LinguagensWP.DataAcess/obj
+/TP1/LinguagensWP.Models/bin
+/TP1/LinguagensWP.Models/obj

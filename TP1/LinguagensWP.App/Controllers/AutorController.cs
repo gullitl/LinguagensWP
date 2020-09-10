@@ -21,7 +21,7 @@ namespace LinguagensWP.Controllers
         // GET: Autor
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Autor.ToListAsync());
+            return View(await _context.Autores.ToListAsync());
         }
 
         // GET: Autor/Details/5
@@ -32,7 +32,7 @@ namespace LinguagensWP.Controllers
                 return NotFound();
             }
 
-            var autor = await _context.Autor
+            var autor = await _context.Autores
                 .FirstOrDefaultAsync(m => m.AutorId == id);
             if (autor == null)
             {
@@ -72,7 +72,7 @@ namespace LinguagensWP.Controllers
                 return NotFound();
             }
 
-            var autor = await _context.Autor.FindAsync(id);
+            var autor = await _context.Autores.FindAsync(id);
             if (autor == null)
             {
                 return NotFound();
@@ -123,7 +123,7 @@ namespace LinguagensWP.Controllers
                 return NotFound();
             }
 
-            var autor = await _context.Autor
+            var autor = await _context.Autores
                 .FirstOrDefaultAsync(m => m.AutorId == id);
             if (autor == null)
             {
@@ -138,15 +138,15 @@ namespace LinguagensWP.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var autor = await _context.Autor.FindAsync(id);
-            _context.Autor.Remove(autor);
+            var autor = await _context.Autores.FindAsync(id);
+            _context.Autores.Remove(autor);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool AutorExists(int id)
         {
-            return _context.Autor.Any(e => e.AutorId == id);
+            return _context.Autores.Any(e => e.AutorId == id);
         }
     }
 }

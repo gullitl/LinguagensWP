@@ -48,7 +48,7 @@ namespace LinguagensWP.Controllers
         // GET: Linguagem/Create
         public IActionResult Create()
         {
-            ViewData["AutorId"] = new SelectList(_context.Autor, "AutorId", "NomeCompleto");
+            ViewData["AutorId"] = new SelectList(_context.Autores, "AutorId", "NomeCompleto");
             return View();
         }
 
@@ -65,7 +65,7 @@ namespace LinguagensWP.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AutorId"] = new SelectList(_context.Autor, "AutorId", "NomeCompleto", linguagem.AutorId);
+            ViewData["AutorId"] = new SelectList(_context.Autores, "AutorId", "NomeCompleto", linguagem.AutorId);
             return View(linguagem);
         }
 
@@ -82,7 +82,7 @@ namespace LinguagensWP.Controllers
             {
                 return NotFound();
             }
-            ViewData["AutorId"] = new SelectList(_context.Autor, "AutorId", "NomeCompleto", linguagem.AutorId);
+            ViewData["AutorId"] = new SelectList(_context.Autores, "AutorId", "NomeCompleto", linguagem.AutorId);
             return View(linguagem);
         }
 
@@ -118,7 +118,7 @@ namespace LinguagensWP.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AutorId"] = new SelectList(_context.Autor, "AutorId", "NomeCompleto", linguagem.AutorId);
+            ViewData["AutorId"] = new SelectList(_context.Autores, "AutorId", "NomeCompleto", linguagem.AutorId);
             return View(linguagem);
         }
 

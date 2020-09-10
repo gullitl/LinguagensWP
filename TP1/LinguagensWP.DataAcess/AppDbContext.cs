@@ -21,7 +21,7 @@ namespace LinguagensWP.DataAccess {
         }
 
         public virtual DbSet<Linguagem> Linguagens { get; set; }
-        public DbSet<Autor> Autor { get; set; }
+        public DbSet<Autor> Autores { get; set; }
 
     }
 }
