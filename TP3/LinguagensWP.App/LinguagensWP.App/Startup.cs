@@ -26,8 +26,8 @@ namespace LinguagensWP.App {
             });
 
             services.AddHttpClient<IHttpClientService, HttpClientService>(x => {
-                x.BaseAddress = new Uri("http://localhost:52233/");
-                x.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                x.BaseAddress = new Uri(Configuration["HttpClient:BaseAddress"]);
+                x.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(Configuration["HttpClient:MediaType"]));
             });
         }
 
